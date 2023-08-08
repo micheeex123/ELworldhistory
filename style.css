@@ -10,16 +10,39 @@ h2 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
 }
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5em;
+    text-align: center;
+}
 
 table {
     font-family: arial, sans-serif;
     font-size: 1.25em;
-    border-collapse: separate;
+    border-collapse: collapse;
     width: 55%;
 }
 table.center {
     margin-left: auto; 
     margin-right: auto;
+}
+
+table.hi {
+    margin-left: auto; 
+    margin-right: auto;
+}
+table.hi th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table.hi tr:nth-child(1) {
+    background-color: #FFABD4;
+}
+table.hi tr:nth-child(2) {
+    background-color: #FFDAEC;
 }
 
 td, th {
@@ -28,5 +51,5 @@ td, th {
     padding: 8px;
 }
 tr:nth-child(1) {
-    background-color: #dddddd;
+    background-color: #FFE7F3;
 }
