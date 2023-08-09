@@ -1,8 +1,17 @@
-p {text-align: center;}
+p {
+    width: 75vw;
+    text-align: center;
+    font-size: 1.25em;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 1;}
+    
 h1 {
     font-family: cursive;
     font-size: 3.5em;
     text-align: center;
+
 }
 h2 {
     text-align: center;
@@ -12,8 +21,45 @@ h2 {
 }
 h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 3.5em;
+    font-size: 3.2em;
     text-align: center;
+    margin: 1;
+}
+
+h4 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.35em;
+    text-align: left;
+    width: 67vw;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 1;;
+}
+
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 1.28em;
+    text-align: left;
+    width: 62vw;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-top: 0;;
+
+}
+
+h6 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-align: left; 
+    margin: 0;
+}
+
+img {
+    float: left;
+    margin: 20px;
 }
 
 table {
